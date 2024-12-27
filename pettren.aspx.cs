@@ -21,7 +21,7 @@ namespace _6ASP.net
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            int a = Convert.ToInt32(num1.Text);
+            int a = int.Parse(num1.Text);
             int b = int.Parse(num2.Text);
             int sum = a + b;
             Response.Write("this sum is :"+(sum));

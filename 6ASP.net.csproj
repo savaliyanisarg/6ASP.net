@@ -67,17 +67,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asi1Que2.aspx" />
+    <Content Include="Asi1Que3.aspx" />
+    <Content Include="Autopost.aspx" />
     <Content Include="Hello.aspx" />
+    <Content Include="nevbar.aspx" />
     <Content Include="pettren.aspx" />
+    <Content Include="Question1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asi1Que2.aspx.cs">
+      <DependentUpon>Asi1Que2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Asi1Que2.aspx.designer.cs">
+      <DependentUpon>Asi1Que2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Asi1Que3.aspx.cs">
+      <DependentUpon>Asi1Que3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Asi1Que3.aspx.designer.cs">
+      <DependentUpon>Asi1Que3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Autopost.aspx.cs">
+      <DependentUpon>Autopost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Autopost.aspx.designer.cs">
+      <DependentUpon>Autopost.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Hello.aspx.cs">
       <DependentUpon>Hello.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Hello.aspx.designer.cs">
       <DependentUpon>Hello.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nevbar.aspx.cs">
+      <DependentUpon>nevbar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nevbar.aspx.designer.cs">
+      <DependentUpon>nevbar.aspx</DependentUpon>
     </Compile>
     <Compile Include="pettren.aspx.cs">
       <DependentUpon>pettren.aspx</DependentUpon>
@@ -87,6 +120,13 @@
       <DependentUpon>pettren.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question1.aspx.cs">
+      <DependentUpon>Question1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Question1.aspx.designer.cs">
+      <DependentUpon>Question1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
