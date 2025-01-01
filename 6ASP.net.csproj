@@ -67,14 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="amo.png" />
     <Content Include="Asi1Que2.aspx" />
     <Content Include="Asi1Que3.aspx" />
     <Content Include="Autopost.aspx" />
+    <Content Include="dashboard.jpeg" />
     <Content Include="Hello.aspx" />
     <Content Include="nevbar.aspx" />
     <Content Include="pettren.aspx" />
     <Content Include="Question1.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Asi1Que2.aspx.cs">
@@ -127,6 +131,13 @@
     <Compile Include="Question1.aspx.designer.cs">
       <DependentUpon>Question1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -136,6 +147,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FILES\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

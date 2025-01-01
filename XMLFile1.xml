@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>dashboard.jpeg</ImageUrl>
+    <keyword>technology,c,c#</keyword>
+    <NavigateUrl>www.google.com</NavigateUrl>
+    <AlternateText>c-sharp</AlternateText>
+    <impression>3</impression>
+  </Ad>
+  <Ad>
+    <ImageUrl>amo.png</ImageUrl>
+    <keyword>technology,c,c#</keyword>
+    <NavigateUrl>www.google.com</NavigateUrl>
+    <AlternateText>c-sharp</AlternateText>
+    <impression>3</impression>
+  </Ad>
+  <Ad>
+    <ImageUrl>dashboard.jpeg</ImageUrl>
+    <keyword>technology,c,c#</keyword>
+    <NavigateUrl>www.google.com</NavigateUrl>
+    <AlternateText>c-sharp</AlternateText>
+    <impression>3</impression>
+  </Ad>
+</Advertisements>
