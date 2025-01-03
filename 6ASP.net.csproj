@@ -73,6 +73,7 @@
     <Content Include="Autopost.aspx" />
     <Content Include="dashboard.jpeg" />
     <Content Include="Hello.aspx" />
+    <Content Include="Home.aspx" />
     <Content Include="nevbar.aspx" />
     <Content Include="pettren.aspx" />
     <Content Include="Question1.aspx" />
@@ -109,6 +110,13 @@
     <Compile Include="Hello.aspx.designer.cs">
       <DependentUpon>Hello.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="nevbar.aspx.cs">
       <DependentUpon>nevbar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -131,6 +139,13 @@
     <Compile Include="Question1.aspx.designer.cs">
       <DependentUpon>Question1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -141,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
