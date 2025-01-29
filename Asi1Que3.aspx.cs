@@ -1,56 +1,51 @@
 ﻿using System;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Xml.Linq;
 
-namespace YourNamespace
+namespace _6ASP.net
 {
-    public partial class AlgebraOperations : System.Web.UI.Page
+    public partial class Assi3qu1 : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Optional: Logic to execute when the page loads
         }
 
-        protected void btnCalculate_Click(object sender, EventArgs e)
+        protected void btnNext1_Click(object sender, EventArgs e)
         {
-            if (double.TryParse(txtFirstNumber.Text, out double firstNumber) &&
-                double.TryParse(txtSecondNumber.Text, out double secondNumber))
-            {
-                string operation = ddlOperation.SelectedValue;
-                double result;
+            // Move to View2 (Contact Info)
+            MultiView1.ActiveViewIndex = 1;
+        }
 
-                switch (operation)
-                {
-                    case "Add":
-                        result = firstNumber + secondNumber;
-                        lblResult.Text = $"Result: {firstNumber} + {secondNumber} = {result}";
-                        break;
-                    case "Subtract":
-                        result = firstNumber - secondNumber;
-                        lblResult.Text = $"Result: {firstNumber} - {secondNumber} = {result}";
-                        break;
-                    case "Multiply":
-                        result = firstNumber * secondNumber;
-                        lblResult.Text = $"Result: {firstNumber} × {secondNumber} = {result}";
-                        break;
-                    case "Divide":
-                        if (secondNumber != 0)
-                        {
-                            result = firstNumber / secondNumber;
-                            lblResult.Text = $"Result: {firstNumber} ÷ {secondNumber} = {result}";
-                        }
-                        else
-                        {
-                            lblResult.Text = "Error: Division by zero is not allowed.";
-                        }
-                        break;
-                    default:
-                        lblResult.Text = "Please select a valid operation.";
-                        break;
-                }
-            }
-            else
-            {
-                lblResult.Text = "Please enter valid numeric values.";
-            }
+        protected void btnPrevious1_Click(object sender, EventArgs e)
+        {
+            // Move back to View1 (Personal Info)
+            MultiView1.ActiveViewIndex = 0;
+        }
+
+        protected void btnNext2_Click(object sender, EventArgs e)
+        {
+            // Move to View3 (Summary)
+            MultiView1.ActiveViewIndex = 2;
+
+            // Populate summary labels
+            lblName.Text = txtName.Text;
+            lblGender.Text = rbMale.Checked ? "Male" : "Female";
+            lblAddress.Text = txtAddress.Text;
+            lblDegree.Text = txtDegree.Text;
+            lblEmail.Text = txtEmail.Text;
+            lblContactNo.Text = txtContactNo.Text;
+        }
+
+        protected void btnNext2_Click(object sender, EventArgs e)
+        {
+            // Navigate to the next view (View 2 or View 3 depending on your structure)
+            MultiView1.ActiveViewIndex = 2;
+        }
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            // Display a message on successful submission
+            Response.Write("<script>alert('Student details submitted successfully!');</script>");
         }
     }
 }

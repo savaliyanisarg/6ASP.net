@@ -70,6 +70,10 @@
     <Content Include="amo.png" />
     <Content Include="Asi1Que2.aspx" />
     <Content Include="Asi1Que3.aspx" />
+    <Content Include="Ass2que1.aspx" />
+    <Content Include="Assi2que1.xml" />
+    <Content Include="Assique11.aspx" />
+    <Content Include="Assique22.aspx" />
     <Content Include="Autopost.aspx" />
     <Content Include="dashboard.jpeg" />
     <Content Include="Hello.aspx" />
@@ -77,8 +81,16 @@
     <Content Include="nevbar.aspx" />
     <Content Include="pettren.aspx" />
     <Content Include="Question1.aspx" />
+    <None Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="WebForm3.aspx" />
     <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +107,27 @@
     </Compile>
     <Compile Include="Asi1Que3.aspx.designer.cs">
       <DependentUpon>Asi1Que3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ass2que1.aspx.cs">
+      <DependentUpon>Ass2que1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ass2que1.aspx.designer.cs">
+      <DependentUpon>Ass2que1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assique11.aspx.cs">
+      <DependentUpon>Assique11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assique11.aspx.designer.cs">
+      <DependentUpon>Assique11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assique22.aspx.cs">
+      <DependentUpon>Assique22.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assique22.aspx.designer.cs">
+      <DependentUpon>Assique22.aspx</DependentUpon>
     </Compile>
     <Compile Include="Autopost.aspx.cs">
       <DependentUpon>Autopost.aspx</DependentUpon>
@@ -153,8 +186,23 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">

@@ -1,0 +1,5 @@
+﻿<ads>
+  <add ImageUrl="ad1.jpg" NavigateUrl="http://www.example1.com" AlternateText="Ad 1" />
+  <add ImageUrl="ad2.jpg" NavigateUrl="http://www.example2.com" AlternateText="Ad 2" />
+  <add ImageUrl="ad3.jpg" NavigateUrl="http://www.example3.com" AlternateText="Ad 3" />
+</ads>

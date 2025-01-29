@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ASSIGNMENT
+namespace _6ASP.net
 {
 
 
-    public partial class WebForm1
+    public partial class Ass2que1
     {
 
         /// <summary>

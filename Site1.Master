@@ -14,12 +14,8 @@
     
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-              
-            </asp:ContentPlaceHolder>
-           
-        </div>
+        
+        <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar scroll</a>
@@ -56,16 +52,28 @@
     </div>
   </div>
 </nav>
+            <div>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      
+    </asp:ContentPlaceHolder>          
+</div>
+            <body>
 
-        <asp:ContentPlaceHolder ID="body" runat="server">
+<asp:ContentPlaceHolder ID="body" runat="server">
 
-        </asp:ContentPlaceHolder>
-        <footer>
-        <asp:ContentPlaceHolder ID="footer" runat="server">
-            @copyRights reseverd
-        </asp:ContentPlaceHolder>
-        @copyRights resevered
-            </footer>
+</asp:ContentPlaceHolder>
+    </body>
+
+            <footer>
+<asp:ContentPlaceHolder ID="footer" runat="server">
+    @copyRights reseverd
+</asp:ContentPlaceHolder>
+@copyRights resevered
+    </footer>
+            </header>
+
+        
+        
     </form>
 </body>
 </html>
